@@ -1,0 +1,104 @@
+@import url(bootstrap.min.css);
+@import url(shards-dashboards.1.1.0.min.css);
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+html, body, #root {
+  height: 100%; }
+
+.collapsing {
+  transition: none !important; }
+
+.collapse {
+  transition: none !important; }
+
+.table-scroll {
+  overflow: auto;
+  height: 60vh; }
+
+.table {
+  overflow-x: auto; }
+
+.recent-approval-row {
+  background-color: gray; }
+
+.period {
+  text-transform: uppercase; }
+
+.period::first-letter {
+  text-transform: uppercase; }
+
+.main-sidebar {
+  background: #008D43; }
+
+.main-sidebar .nav .nav-item .nav-link.active, .main-sidebar .nav .nav-item .nav-link:hover, .main-sidebar .nav .nav-item.active, .main-sidebar .nav .nav-item:hover {
+  background-color: #00662C;
+  box-shadow: none;
+  color: #fff; }
+
+.main-sidebar .nav .nav-item .nav-link {
+  color: white; }
+
+.main-sidebar .nav .nav-item .nav-link.active i {
+  color: white; }
+
+.main-sidebar .nav .nav-item .nav-link i {
+  color: white; }
+
+.main-sidebar .nav .nav-item .nav-link:hover i {
+  color: white; }
+
+.gedungFRI {
+  background-image: url(../images/gedungFRI.png);
+  background-color: #28975D;
+  background-size: cover;
+  height: 100%;
+  background-blend-mode: multiply; }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #0ACF83;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: inline-block; }
+
+.dot2 {
+  background-color: #E1F7E8;
+  border-radius: 50%;
+  text-align: center;
+  color: #008D43;
+  display: inline-block;
+  padding: 0.8em; }
+
+.seeAnggota {
+  background-image: url(../images/seeAnggota.svg);
+  background-size: cover;
+  width: 28px;
+  height: 28px; }
+
+.dontSeeAnggota {
+  background-image: url(../images/dontSeeAnggota.svg);
+  background-size: cover;
+  width: 28px;
+  height: 28px; }
+
+.uploadBox {
+  padding: 1.5em 0;
+  border: 0.85px solid #E8E8E8;
+  border-radius: 5px;
+  text-align: center; }
+
+.formComponentSpace {
+  padding: 0.3em 0; }
+
+.btn-ijo {
+  color: white;
+  background-color: #007936;
+  border-color: #007936;
+  box-shadow: none; }
+
+.btn-ijo:hover {
+  background-color: #00662C;
+  border-color: #00662C; }
+
+/*# sourceMappingURL=style.css.map */

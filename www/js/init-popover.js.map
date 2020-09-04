@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "init-popover.js",
+  "sourceRoot": "./",
+  "sources": [
+    "init-popover.js.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAA,CAAE,QAAA,CAAA,CAAA;SAAG,CAAA,CAAE,yBAAF,CAA4B,CAAC,OAA7B,CAAA;AAAH,CAAF",
+  "sourcesContent": [
+    "$ -> $('[data-toggle=\"popover\"]').popover()\r\n"
+  ]
+}
