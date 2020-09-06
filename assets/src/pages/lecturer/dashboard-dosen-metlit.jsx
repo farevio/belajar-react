@@ -27,80 +27,86 @@ export default class Dashboard extends React.Component {
         </Row>
         <Row>
             <Col>
-                <Card>
-                    <CardBody>
-                        <CardSubtitle>Kelas</CardSubtitle>
-                        <CardTitle>SI-41-04</CardTitle>
+                <Card body>
+                    <CardSubtitle>Kelas</CardSubtitle>
+                    <CardTitle>SI-41-04</CardTitle>
                         <Row>
                             <Progress
                                 type="circle"
-                                width={100}
+                                // width={100}
                                 percent={100}
+                                status="active"
                                 theme={{
-                                    color: '#2ECC71'
+                                    active: {
+                                        color: '#00de6d'
+                                    }
                                 }}
                             />
                         </Row>
                         <Link>LIHAT NILAI</Link>
-                    </CardBody>
                 </Card>
             </Col>
             <Col>
-                <Card>
-                    {/* <CardBody>
-                        <CardSubtitle>Kelas</CardSubtitle>
-                        <CardTitle>SI-41-05</CardTitle>
-                        <Progress
+                <Card body>
+                    <CardSubtitle>Kelas</CardSubtitle>
+                    <CardTitle>SI-41-05</CardTitle>
+                        <Row>
+                            <Progress
                                 type="circle"
-                                width={100}
+                                // width={100}
                                 percent={67}
+                                status="active"
                                 theme={{
-                                    color: '#2ECC71'
+                                    active: {
+                                        color: '#efcf00'
+                                    }
                                 }}
                             />
                         </Row>
                         <Link>LIHAT NILAI</Link>
-                    </CardBody> */}
                 </Card>
             </Col>
             <Col>
-                <Card>
-                    {/* <CardBody>
-                        <CardSubtitle>Kelas</CardSubtitle>
-                        <CardTitle>SI-41-06</CardTitle>
-                        <Progress
+                <Card body>
+                    <CardSubtitle>Kelas</CardSubtitle>
+                    <CardTitle>SI-41-06</CardTitle>
+                        <Row>
+                            <Progress
                                 type="circle"
-                                width={100}
+                                // width={100}
                                 percent={0}
+                                status="error"
                                 theme={{
-                                    color: '#2ECC71'
+                                    error: {
+                                        color: 'purple'
+                                    }
                                 }}
                             />
-                        </Row>           
+                        </Row>
                         <Link>LIHAT NILAI</Link>
-                    </CardBody> */}
                 </Card>
             </Col>
             <Col>
-                <Card>
-                    {/* <CardBody>
-                        <CardSubtitle>Kelas</CardSubtitle>
-                        <CardTitle>SI-41-07</CardTitle>
-                        <Progress
+                <Card body>
+                    <CardSubtitle>Kelas</CardSubtitle>
+                    <CardTitle>SI-41-07</CardTitle>
+                        <Row>
+                            <Progress
                                 type="circle"
-                                width={100}
+                                // width={100}
                                 percent={65}
+                                status="active"
                                 theme={{
-                                    color: '#2ECC71'
+                                    active: {
+                                        color: '#efcf00'
+                                    }
                                 }}
                             />
-                        </Row>          
+                        </Row>
                         <Link>LIHAT NILAI</Link>
-                    </CardBody> */}
                 </Card>
             </Col>
         </Row>
-
       </div>
     );
   }
